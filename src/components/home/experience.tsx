@@ -6,16 +6,10 @@ import Image from 'next/image';
 const Experience = () => {
   const group = [
     {
-      logo: '/logo/audit.png',
-      title: 'Techno Commercial Audit Firm',
-      count: 1,
-      actualCount: 1,
-    },
-    {
       logo: '/logo/projects.png',
-      title: 'Years of Infrastructure Expertise',
+      title: 'Years of Industry Expertise',
       count: 1,
-      actualCount: 15,
+      actualCount: 62,
     },
     {
       logo: '/logo/location.png',
@@ -28,18 +22,6 @@ const Experience = () => {
       title: 'Projects Delivered till Date',
       count: 1,
       actualCount: 750,
-    },
-    {
-      logo: '/logo/rating.png',
-      title: 'Leading Businesses as Clients',
-      count: 1,
-      actualCount: 25,
-    },
-    {
-      logo: '/logo/professional.png',
-      title: 'Highly Skilled Manpower',
-      count: 1,
-      actualCount: 150,
     },
   ];
 
@@ -71,12 +53,12 @@ const Experience = () => {
   }, []);
 
   return (
-    <div className='grid grid-cols-3 justify-center items-center mt-10 mb-10'>
+    <div className='grid grid-cols-3 justify-center items-center mt-20 mb-20'>
       {group.map((item, index) => (
         <div
           key={index}
           className={`flex flex-col justify-center items-center ${
-            index < 5 ? 'border-gray border-solid border-r-2' : ''
+            index < 2 ? 'border-gray border-solid border-r-2' : ''
           }`}
         >
           <Image
@@ -89,7 +71,6 @@ const Experience = () => {
           {/* Adjust width and height as needed */}
           <div className='text-center text-4xl text-num-orange mt-2 font-bold'>
             {animatedCounts[index]}
-            {index === 0 ? 'st' : '+'}
           </div>
           <div className='text-center ml-4 mr-4 mb-5'>{item.title}</div>
         </div>

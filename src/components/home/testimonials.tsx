@@ -42,7 +42,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center mt-20'>
       <div className=''>
         <h1 className='text-7xl text-num-orange opacity-10 font-medium'>
           Testimonials

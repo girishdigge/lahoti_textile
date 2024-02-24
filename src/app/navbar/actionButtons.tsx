@@ -24,11 +24,12 @@ const ActionButtons = () => {
               <SheetDescription>
                 <div className='flex flex-col space-y-4 items-start w-full text-black text-lg mt-10'>
                   {/* <Link href='/'>Home</Link> */}
-                  <Link href='/services'>Services</Link>
-                  <Link href='/sectors'>Sectors</Link>
-                  <Link href='/projects'>Projects</Link>
-                  <Link href='/bim'>BIM</Link>
+                  <Link href='/products'>Products</Link>
                   <Link href='/about'>About</Link>
+                  <Link href='/department'>Department</Link>
+
+                  <Link href='/projects'>Projects</Link>
+
                   <Link href='/career'>Career</Link>
                   <Link href='/contact'>Contact</Link>
                   <Link href='/resources'>Resources/Blog</Link>

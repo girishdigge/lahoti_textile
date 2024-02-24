@@ -60,88 +60,53 @@ const services: { title: string; href: string; description: string }[] = [
   },
 ];
 
-const sectors: { title: string; href: string; description: string }[] = [
+const products: { title: string; href: string }[] = [
   {
-    title: 'Aviation',
-    href: '/sectors/aviation',
-    description:
-      'A modal dialog that interrupts the user with important content and expects a response.',
+    title: 'Dobby Border',
+    href: '/products/dobbyBorder',
   },
   {
-    title: 'Bridges Structures',
-    href: '/sectors/bridges-structures',
-    description:
-      'For sighted users to preview content available behind a link.',
+    title: 'Strip Towel',
+    href: '/products/stripTowel',
   },
   {
-    title: 'Commercial',
-    href: '/sectors/commercial',
-    description:
-      'Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.',
+    title: 'Bath Towel',
+    href: '/products/bathTowel',
   },
   {
-    title: 'Industrial',
-    href: '/sectors/industrial',
-    description: 'Visually or semantically separates content.',
+    title: 'Jacquard Border',
+    href: '/products/jacquardBorder',
+  },
+
+  {
+    title: 'Jacquard Design',
+    href: '/products/jacquardDesign',
   },
   {
-    title: 'Institutional',
-    href: '/sectors/institutional',
-    description:
-      'A set of layered sections of content—known as tab panels—that are displayed one at a time.',
+    title: 'Jacquard Embroidery',
+    href: '/products/jacquardEmbroidery',
   },
   {
-    title: 'Oil Gas',
-    href: '/sectors/oil-gas',
-    description:
-      'A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.',
+    title: 'Kitchen Napkin',
+    href: '/products/kitchenNapkin',
   },
   {
-    title: 'Ports',
-    href: '/sectors/ports',
-    description:
-      'A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.',
+    title: 'Greek Border Set',
+    href: '/products/greekBorderSet',
   },
   {
-    title: 'Power Transmission',
-    href: '/sectors/power-transmission',
-    description:
-      'A modal dialog that interrupts the user with important content and expects a response.',
+    title: 'Bath MAT',
+    href: '/products/bathMat',
   },
+  { title: 'Beach', href: '/products/beach' },
   {
-    title: 'Railways Metro',
-    href: '/sectors/railways-metro',
-    description:
-      'For sighted users to preview content available behind a link.',
+    title: 'Promotional Supply',
+    href: '/products/promotionalSupply',
   },
+
   {
-    title: 'Renewable Energy',
-    href: '/sectors/renewable-energy',
-    description:
-      'Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.',
-  },
-  {
-    title: 'Residential',
-    href: '/sectors/residential',
-    description: 'Visually or semantically separates content.',
-  },
-  {
-    title: 'Roads Highways',
-    href: '/sectors/roads-highways',
-    description:
-      'A set of layered sections of content—known as tab panels—that are displayed one at a time.',
-  },
-  {
-    title: 'Thermal Power Plant',
-    href: '/sectors/thermal-power-plant',
-    description:
-      'A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.',
-  },
-  {
-    title: 'Water Infrastructure',
-    href: '/sectors/water-infrastructure',
-    description:
-      'A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.',
+    title: 'Institutional Supply',
+    href: '/products/institutionalSupply',
   },
 ];
 
@@ -170,11 +135,13 @@ export function NavigationBar() {
   return (
     <NavigationMenu>
       <NavigationMenuList className='hidden md:flex md:justify-center md:items-center md:space-x-3 md:z-2 mr-1'>
-        {/* <NavigationMenuItem>
+        <NavigationMenuItem className='mb-1'>
           <Link href='/' legacyBehavior passHref>
-            <NavigationMenuLink>Home</NavigationMenuLink>
+            <NavigationMenuLink className='hover:bg-gray-100 text-sm font-medium px-4 py-2 '>
+              Home
+            </NavigationMenuLink>
           </Link>
-        </NavigationMenuItem> */}
+        </NavigationMenuItem>
         {/* <Separator orientation='vertical' className='bg-pink-400 w-1 h-10' /> */}
         <NavigationMenuItem>
           <NavigationMenuTrigger>
@@ -196,18 +163,16 @@ export function NavigationBar() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger>
-            <Link href={`/sectors`}> Sectors</Link>
+            <Link href={`/products`}> products</Link>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className='grid w-[400px] gap-1 p-1 md:w-[500px] md:grid-cols-3 lg:w-[600px] '>
-              {sectors.map((sector) => (
+              {products.map((product) => (
                 <ListItem
-                  key={sector.title}
-                  title={sector.title}
-                  href={sector.href}
-                >
-                  {sector.description}
-                </ListItem>
+                  key={product.title}
+                  title={product.title}
+                  href={product.href}
+                ></ListItem>
               ))}
             </ul>
           </NavigationMenuContent>
@@ -230,15 +195,7 @@ export function NavigationBar() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href='/bim' legacyBehavior passHref>
-            <div className=' mb-0.5'>
-              <NavigationMenuLink className='hover:bg-gray-100 text-sm font-medium px-4 py-2'>
-                BIM
-              </NavigationMenuLink>
-            </div>
-          </Link>
-        </NavigationMenuItem>
+
         <NavigationMenuItem>
           <NavigationMenuTrigger>
             <Link href={`/about`}>About</Link>
@@ -257,19 +214,29 @@ export function NavigationBar() {
                       About Us
                     </div>
                     <p className='text-sm leading-tight text-muted-foreground'>
-                      For major engineering and construction (E&C) projects,
-                      Construction Site audit ( techno Commercial Audit) can be
-                      an effective tool to do more with less and help eliminate
-                      wasteful spending and cost overruns
+                      Lahoti Group is a comprehensive company specialized in
+                      developing and export of terry towels and is located in
+                      Solapur,a beautiful financial Textile Hub of India. Lahoti
+                      Group originally started from yarn business,which was
+                      established in 1962.Thereafter we advanced from yarn
+                      dealing business to Terry Towel,kitchen Napkins,Bath
+                      Towels manufacturing business.
                     </p>
                   </a>
                 </NavigationMenuLink>
               </li>
               <ListItem href='/about/vision' title='Vision'>
-                Re-usable services built using Radix UI and Tailwind CSS.
+                Our VISION is to become the prefered source of terry towels with
+                customer deligh
               </ListItem>
               <ListItem href='/about/mission' title='Mission'>
-                How to install dependencies and structure your app.
+                <ul>
+                  <li>Constant Innovation</li>
+                  <li>Quality Development</li>
+                  <li>Customer Satisfaction</li>
+                  <li>Meet Targets and Deadlines</li>
+                  <li>Long Term Business Relations</li>
+                </ul>
               </ListItem>
               <ListItem href='/about/people' title='Team / People'>
                 Styles for headings, paragraphs, lists...etc
@@ -282,7 +249,7 @@ export function NavigationBar() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href='/career' legacyBehavior passHref>
-            <div className=' mb-0.5'>
+            <div className=' mb-1'>
               <NavigationMenuLink className='hover:bg-gray-100 text-sm font-medium px-4 py-2'>
                 Career
               </NavigationMenuLink>

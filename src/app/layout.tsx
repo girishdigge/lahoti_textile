@@ -5,8 +5,8 @@ import './globals.css';
 const manrope = Manrope({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Numbertree',
-  description: 'Numbertree Assurance Services',
+  title: 'Lahoti Textile',
+  description: 'Lahoti Textile since 1962',
 };
 
 export default function RootLayout({
