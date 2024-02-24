@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Sparkles from '../sparkles';
 
 const Page = () => {
   return (
