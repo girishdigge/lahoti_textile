@@ -8,7 +8,7 @@ const Page = () => {
       </h1>
       <div className='grid grid-cols-2 gap-4'>
         <Image
-          className='md:h-96 max-w-full rounded-lg transform hover:scale-110 transition-all ease-in-out'
+          className='md:h-96 h-40 max-w-full rounded-lg transform hover:scale-110 transition-all ease-in-out'
           src='/products/beach/1.png'
           height={500}
           width={500}
@@ -16,14 +16,14 @@ const Page = () => {
         />
 
         <Image
-          className='md:h-96 max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
+          className='md:h-96 h-40 max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
           src='/products/beach/2.png'
           height={500}
           width={500}
           alt='1'
         />
         <Image
-          className='md:h-96 max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
+          className='md:h-96 h-40 max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
           src='/products/beach/3.png'
           height={500}
           width={500}

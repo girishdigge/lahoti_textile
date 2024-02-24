@@ -10,6 +10,7 @@ import {
 } from '@/components/ui/carousel';
 import Image from 'next/image';
 import { Button } from '../ui/button';
+import Link from 'next/link';
 
 const Projects = () => {
   const projects = [
@@ -95,9 +96,11 @@ const Projects = () => {
                       <h2 className='md:text-md mb-5 w-4/5 text-sm'>
                         {project.content}
                       </h2>
-                      <Button className='w-1/3 bg-num-indigo mt-5 border-0 hover:bg-num-orange'>
-                        Read More{`>`}
-                      </Button>
+                      <Link href={`/projects`}>
+                        <Button className='w-1/3 bg-num-indigo mt-5 border-0 hover:bg-num-orange'>
+                          Read More{`>`}
+                        </Button>
+                      </Link>
                     </div>
                   </div>
                 </div>

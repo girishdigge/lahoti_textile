@@ -16,7 +16,7 @@ const Department = () => {
       content: {
         heading: 'WARPING',
         paragraph: 'Fully Autaomatic High Speed Sectional Warping Machine',
-        link: '#',
+        link: '/department',
       },
     },
     {
@@ -31,7 +31,7 @@ const Department = () => {
           '🔹Capacity Utilization:100%',
         ],
 
-        link: '#',
+        link: '/department',
       },
     },
     {
@@ -42,7 +42,7 @@ const Department = () => {
         heading: 'DYEING',
         paragraph:
           'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, voluptatem et voluptates ipsam consectetur natus reiciendis impedit unde corrupti dignissimos?',
-        link: '#',
+        link: '/department',
       },
     },
     {
@@ -53,7 +53,7 @@ const Department = () => {
         heading: 'LOOM',
         paragraph:
           'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, voluptatem et voluptates ipsam consectetur natus reiciendis impedit unde corrupti dignissimos?',
-        link: '#',
+        link: '/department',
       },
     },
     {
@@ -64,7 +64,7 @@ const Department = () => {
         heading: 'STICHING',
         paragraph:
           'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, voluptatem et voluptates ipsam consectetur natus reiciendis impedit unde corrupti dignissimos?',
-        link: '#',
+        link: '/department',
       },
     },
     {
@@ -75,7 +75,7 @@ const Department = () => {
         heading: 'CHECKING',
         paragraph:
           'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, voluptatem et voluptates ipsam consectetur natus reiciendis impedit unde corrupti dignissimos?',
-        link: '#',
+        link: '/department',
       },
     },
     {
@@ -86,7 +86,7 @@ const Department = () => {
         heading: 'PACKING',
         paragraph:
           'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, voluptatem et voluptates ipsam consectetur natus reiciendis impedit unde corrupti dignissimos?',
-        link: '#',
+        link: '/department',
       },
     },
 

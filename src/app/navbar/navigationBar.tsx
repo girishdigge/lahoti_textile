@@ -142,8 +142,15 @@ export function NavigationBar() {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
+        <NavigationMenuItem className='mb-1'>
+          <Link href='/department' legacyBehavior passHref>
+            <NavigationMenuLink className='hover:bg-gray-100 text-sm font-medium px-4 py-2 '>
+              Department
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
         {/* <Separator orientation='vertical' className='bg-pink-400 w-1 h-10' /> */}
-        <NavigationMenuItem>
+        {/* <NavigationMenuItem>
           <NavigationMenuTrigger>
             <Link href={`/services`}> Services</Link>
           </NavigationMenuTrigger>
@@ -160,7 +167,7 @@ export function NavigationBar() {
               ))}
             </ul>
           </NavigationMenuContent>
-        </NavigationMenuItem>
+        </NavigationMenuItem> */}
         <NavigationMenuItem>
           <NavigationMenuTrigger>
             <Link href={`/products`}> products</Link>

@@ -21,7 +21,7 @@ const ESG = () => {
             Navigating Excellence:Your Gateway to Sustainable Living and
             Responsible Business Practices.
           </p>
-          <Button className='w-1/3 bg-num-indigo mt-10 border-0 hover:bg-num-orange'>{`Read More>`}</Button>
+          {/* <Button className='w-1/3 bg-num-indigo mt-10 border-0 hover:bg-num-orange'>{`Read More>`}</Button> */}
         </div>
       </div>
     </div>

@@ -32,7 +32,6 @@ const ActionButtons = () => {
 
                   <Link href='/career'>Career</Link>
                   <Link href='/contact'>Contact</Link>
-                  <Link href='/resources'>Resources/Blog</Link>
                 </div>
               </SheetDescription>
             </SheetHeader>

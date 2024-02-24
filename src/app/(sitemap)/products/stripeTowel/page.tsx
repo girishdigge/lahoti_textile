@@ -29,7 +29,7 @@ const Page = () => {
           alt='1'
         />
         <Image
-          className='md:h-96 max-w-full rounded-lg transform hover:scale-110 transition-all ease-in-out'
+          className='md:h-96 h-40 max-w-full rounded-lg transform hover:scale-110 transition-all ease-in-out'
           src='/products/strip/4.png'
           height={500}
           width={500}

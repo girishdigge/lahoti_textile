@@ -70,7 +70,7 @@ const Carousel = () => {
     <div className='text-white z-1 relative bg-white'>
       <Slider {...settings}>
         {slides.map((slide, index) => (
-          <div key={index} className='relative md:h-96'>
+          <div key={index} className='relative md:h-96 h-40'>
             <Image
               width={1920}
               height={600}

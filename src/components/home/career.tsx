@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '../ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 const Career = () => {
   return (
     <div className='md:flex items-center justify-center bg-num-indigo'>
@@ -22,9 +23,11 @@ const Career = () => {
             People are at the heart of our services. Come explore a world of
             oppurtunities in various functions and roles.
           </p>
-          <Button className='md:w-1/3 bg-num-orange mt-10 border-0'>
-            Explore Career{`>`}
-          </Button>
+          <Link href={`/career`}>
+            <Button className='md:w-1/3 bg-num-orange mt-10 border-0'>
+              Explore Career{`>`}
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

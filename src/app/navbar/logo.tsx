@@ -10,7 +10,7 @@ const Logo = () => {
         </Link>
       </div>
       <div className='flex items-center text-3xl font-extrabold text-num-purple'>
-        Lahoti Textile
+        <Link href={'/'}>Lahoti Textile</Link>
       </div>
     </div>
   );

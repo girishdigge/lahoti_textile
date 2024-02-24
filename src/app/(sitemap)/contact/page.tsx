@@ -1,4 +1,8 @@
 const Page = () => {
-  return <div>Contact</div>;
+  return (
+    <div className='h-96 flex flex-col md:text-5xl items-center justify-center'>
+      Contact ...comming soon
+    </div>
+  );
 };
 export default Page;

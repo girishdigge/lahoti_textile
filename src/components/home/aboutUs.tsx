@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '../ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 const AboutUs = () => {
   return (
     <div className='md:flex items-center justify-center bg-num-blue bg-opacity-10 '>
@@ -18,9 +19,11 @@ const AboutUs = () => {
           manufacturing business.
         </p>
         <div className='mt-5'>
-          <Button className='w-40  text-bold text-white font-medium bg-num-indigo hover:bg-num-orange'>
-            About Us
-          </Button>
+          <Link href={`/about`}>
+            <Button className='w-40  text-bold text-white font-medium bg-num-indigo hover:bg-num-orange'>
+              About Us
+            </Button>
+          </Link>
         </div>
       </div>
 

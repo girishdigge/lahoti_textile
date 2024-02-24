@@ -5,6 +5,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { FiYoutube } from 'react-icons/fi';
 import { FaXTwitter } from 'react-icons/fa6';
 import Logo from '@/app/navbar/logo';
+import Link from 'next/link';
 const Footer = () => {
   return (
     <div className='md:grid md:grid-col-2 mt-10 h-auto bg-num-indigo '>
@@ -50,9 +51,15 @@ const Footer = () => {
             </div>
           </div>
           <div className='flex flex-row-5 gap-4'>
-            <FaFacebookF size={30} className='bg-white p-1  rounded-xl' />
+            <Link
+              href={`https://m.facebook.com/p/Lahoti-Textile-100079515964914/`}
+            >
+              <FaFacebookF size={30} className='bg-white p-1  rounded-xl' />
+            </Link>
             <FaInstagram size={30} className='bg-white p-1  rounded-xl' />
-            <FaLinkedinIn size={30} className='bg-white p-1 rounded-xl' />
+            <Link href={`https://in.linkedin.com/in/pankaj-lahoti-a03334230`}>
+              <FaLinkedinIn size={30} className='bg-white p-1 rounded-xl' />
+            </Link>
           </div>
           <p className='text-white font-md w-3/4 mt-4'>
             &copy; 2024 Lahoti Textiles. All Rights Reserved.
