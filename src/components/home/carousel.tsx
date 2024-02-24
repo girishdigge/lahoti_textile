@@ -70,7 +70,7 @@ const Carousel = () => {
     <div className='text-white z-1 relative bg-white'>
       <Slider {...settings}>
         {slides.map((slide, index) => (
-          <div key={index} className='relative h-96'>
+          <div key={index} className='relative md:h-96'>
             <Image
               width={1920}
               height={600}
@@ -78,11 +78,13 @@ const Carousel = () => {
               alt={slide.title}
               className='w-full md:h-auto h-40'
             />
-            <div className='absolute inset-0 flex items-center ml-16 mt-5'>
+            <div className='absolute inset-0 md:flex items-center ml-2 mt-5'>
               <div className='bg-black bg-opacity-30 w-2/5 h-4/5 rounded-3xl p-5'>
                 <div className='text-white'>
-                  <div className='text-xl mb-4'>{slide.heading}</div>
-                  <h2 className='md:text-3xl text-sm font-bold mb-4'>
+                  <div className='hidden md:flex md:text-xl md:mb-4'>
+                    {slide.heading}
+                  </div>
+                  <h2 className='md:text-3xl text-sm font-bold md:mb-4 mb-2'>
                     {slide.title}
                   </h2>
                   <h2 className='md:text-6xl mb-5 text-sm font-bold'>

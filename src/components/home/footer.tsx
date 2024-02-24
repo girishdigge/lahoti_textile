@@ -7,16 +7,16 @@ import { FaXTwitter } from 'react-icons/fa6';
 import Logo from '@/app/navbar/logo';
 const Footer = () => {
   return (
-    <div className='grid grid-col-2 mt-10 h-auto bg-num-indigo '>
+    <div className='md:grid md:grid-col-2 mt-10 h-auto bg-num-indigo '>
       <div className='  flex flex-col-2 mb-4'>
         <div className='flex flex-col-4 w-4/5 mt-12 pl-12 text-white '>
-          <div className='flex flex-col w-1/4 '>
+          <div className='hidden md:flex md:flex-col w-1/4 '>
             <h1 className='mb-2 text-xl font-semibold '>What we do</h1>
             <p>Sectors</p>
             <p>Services</p>
             <p>Projects</p>
           </div>
-          <div className='flex flex-col w-1/4 '>
+          <div className='hidden md:flex md:flex-col w-1/4 '>
             <h1 className='mb-2 text-xl font-semibold'>Pages</h1>
             <p>Linkedin</p>
             <p>Insights</p>
@@ -28,14 +28,14 @@ const Footer = () => {
               {/* <h1 className='mb-2 text-xl font-semibold '>Contacts</h1> */}
               <div>
                 {/* <h2 className='font-bold'>Solapur Office</h2> */}
-                <p className='mb-4 mt-2 text-sm w-5/6'>
+                <p className='mb-4 mt-2 text-sm md:w-5/6'>
                   MW5M+35X, MIDC, Solapur, Maharashtra 413006
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className='flex flex-col justify-center  w-1/5 '>
+        <div className='flex flex-col justify-center  md:w-1/5 '>
           <div className='flex w-full mr-8 h-24 mt-6 '>
             <div className='w-16 flex items-center '>
               <Image

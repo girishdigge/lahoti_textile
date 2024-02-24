@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const Page = () => {
   return (
-    <div className='flex flex-col flex-center justify-center'>
-      <h1 className='mt-2 mb-2 text-5xl font-bold text-num-green flex justify-center'>
+    <div className='flex flex-col flex-center justify-center '>
+      <h1 className='mt-2 mb-2 text-5xl font-bold  flex justify-center bg-gradient-to-r from-num2-grad1 to-num2-grad2'>
         BATH MAT
       </h1>
       <div className='grid grid-cols-2 gap-4'>
@@ -23,7 +23,7 @@ const Page = () => {
           alt='1'
         />
         <Image
-          className='h-96 max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
+          className='md:md:h-96 max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
           src='/products/bath_mat/3.png'
           height={500}
           width={500}

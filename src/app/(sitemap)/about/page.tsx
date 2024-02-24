@@ -7,35 +7,41 @@ import React from 'react';
 import Image from 'next/image';
 import { twMerge } from 'tailwind-merge';
 import { TracingBeam } from '@/components/ui/tracing-beam';
+import Navbar from '@/app/navbar/page';
 
 export default function Page() {
   return (
-    <TracingBeam className=''>
-      <div className='max-w-2xl mx-auto antialiased pt-4 relative'>
-        {content.map((item, index) => (
-          <div key={`content-${index}`} className='mb-10'>
-            <h2 className='bg-num-indigo text-white rounded-full text-3xl font-bold w-fit px-4 py-1 mb-4'>
-              {item.badge}
-            </h2>
-
-            {/* <p className={'text-xl mb-4'}>{item.title}</p> */}
-
-            <div className='text-md space-y-2 prose prose-sm dark:prose-invert'>
-              {item?.image && (
-                <Image
-                  src={item.image}
-                  alt='blog thumbnail'
-                  height='1000'
-                  width='1000'
-                  className='rounded-lg mb-10 object-cover'
-                />
-              )}
-              {item.description}
-            </div>
-          </div>
-        ))}
+    <div>
+      <div className='flex md:hidden'>
+        <Navbar />
       </div>
-    </TracingBeam>
+      <TracingBeam className=''>
+        <div className='max-w-2xl mx-auto antialiased pt-4 relative'>
+          {content.map((item, index) => (
+            <div key={`content-${index}`} className='mb-10'>
+              <h2 className='bg-num-indigo text-white rounded-full text-3xl font-bold w-fit px-4 py-1 mb-4'>
+                {item.badge}
+              </h2>
+
+              {/* <p className={'text-xl mb-4'}>{item.title}</p> */}
+
+              <div className='text-md space-y-2 prose prose-sm dark:prose-invert'>
+                {item?.image && (
+                  <Image
+                    src={item.image}
+                    alt='blog thumbnail'
+                    height='1000'
+                    width='1000'
+                    className='rounded-lg mb-10 object-cover'
+                  />
+                )}
+                {item.description}
+              </div>
+            </div>
+          ))}
+        </div>
+      </TracingBeam>
+    </div>
   );
 }
 

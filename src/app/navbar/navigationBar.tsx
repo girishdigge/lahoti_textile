@@ -66,8 +66,8 @@ const products: { title: string; href: string }[] = [
     href: '/products/dobbyBorder',
   },
   {
-    title: 'Strip Towel',
-    href: '/products/stripTowel',
+    title: 'Stripe Towel',
+    href: '/products/stripeTowel',
   },
   {
     title: 'Bath Towel',
@@ -98,7 +98,7 @@ const products: { title: string; href: string }[] = [
     title: 'Bath MAT',
     href: '/products/bathMat',
   },
-  { title: 'Beach', href: '/products/beach' },
+  { title: 'Beach Towel', href: '/products/beach' },
   {
     title: 'Promotional Supply',
     href: '/products/promotionalSupply',

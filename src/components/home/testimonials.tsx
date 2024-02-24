@@ -56,8 +56,8 @@ const Testimonials = () => {
         <Slider {...settings}>
           {testimonials.map((test, index) => (
             <div key={index} className='flex mt-10 mb-5 '>
-              <div className='grid grid-cols-2'>
-                <div className='w-4/5 flex flex-row-reverse pr-10  border-dotted border-r border-r-1 pb-1 border-num-indigo '>
+              <div className='md:grid grid-cols-2'>
+                <div className='md:w-4/5 flex flex-row-reverse pr-10  border-dotted border-r border-r-1 pb-1 border-num-indigo '>
                   <Image
                     src={test.image}
                     height={200}

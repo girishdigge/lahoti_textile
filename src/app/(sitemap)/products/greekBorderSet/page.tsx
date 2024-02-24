@@ -8,7 +8,7 @@ const Page = () => {
       </h1>
       <div className='grid grid-cols-2 gap-4'>
         <Image
-          className='h-96 max-w-full rounded-lg transform hover:scale-110 transition-all ease-in-out'
+          className='md:h-96 max-w-full rounded-lg transform hover:scale-110 transition-all ease-in-out'
           src='/products/greek/1.png'
           height={500}
           width={500}

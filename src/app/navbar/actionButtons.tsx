@@ -23,7 +23,7 @@ const ActionButtons = () => {
               <SheetTitle>Site Map</SheetTitle>
               <SheetDescription>
                 <div className='flex flex-col space-y-4 items-start w-full text-black text-lg mt-10'>
-                  {/* <Link href='/'>Home</Link> */}
+                  <Link href='/'>Home</Link>
                   <Link href='/products'>Products</Link>
                   <Link href='/about'>About</Link>
                   <Link href='/department'>Department</Link>

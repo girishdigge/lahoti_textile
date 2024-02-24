@@ -4,7 +4,7 @@ import { Button } from '../ui/button';
 const ESG = () => {
   return (
     <div>
-      <div className='grid grid-cols-2 mt-10 mb-10'>
+      <div className='md:grid md:grid-cols-2 mt-10 mb-10'>
         <div className='flex flex-row-reverse mr-5'>
           <Image
             src={'/images/esg1.png'}

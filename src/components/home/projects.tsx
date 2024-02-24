@@ -56,7 +56,7 @@ const Projects = () => {
   ];
   return (
     <div>
-      <div className='mt-10 ml-28'>
+      <div className='mt-10 md:ml-28'>
         <h1 className='text-7xl text-num-watermark font-medium'>Projects</h1>
 
         <h2 className='-translate-y-12 ml-1 text-4xl text-num-orange font-medium'>
@@ -67,7 +67,7 @@ const Projects = () => {
           {'Commited To Excellence Across Infra Projects'}
         </h3>
       </div>
-      <Carousel className='flex items-center justify-center ml-28 w-4/5 relative'>
+      <Carousel className='md:flex items-center justify-center md:ml-28 ml-10 w-4/5 relative'>
         <CarouselContent>
           {projects.map((project, index) => (
             <CarouselItem key={index}>
@@ -79,7 +79,7 @@ const Projects = () => {
                   width={1200}
                   alt='image'
                 />
-                <div className='absolute inset-0 flex items-center  mt-5'>
+                <div className='hidden md:absolute inset-0 md:flex items-center  mt-5'>
                   <div className='bg-black bg-opacity-70 w-2/5 h-4/5 p-5'>
                     <div className='flex flex-row mt-10 ml-2'>
                       <h1 className='text-num-orange text-lg ml-1 mt-1 font-semibold'>

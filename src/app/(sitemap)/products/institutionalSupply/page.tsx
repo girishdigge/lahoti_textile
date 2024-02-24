@@ -23,7 +23,7 @@ const Page = () => {
           alt='1'
         />
         <Image
-          className='h-96 max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
+          className='md:h-96 max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
           src='/products/institutional_supply/3.webp'
           height={500}
           width={500}

@@ -98,9 +98,11 @@ const Department = () => {
   };
 
   return (
-    <div className='w-full '>
+    <div className=' md:w-full '>
       <div className='mt-20 ml-14'>
-        <h1 className='text-7xl text-num-watermark font-medium'>Departments</h1>
+        <h1 className='mdLtext-7xl text-3xl text-num-watermark font-medium'>
+          Departments
+        </h1>
 
         <h2 className='-translate-y-12 ml-1 text-4xl text-num-orange font-medium'>
           Departments
@@ -112,7 +114,7 @@ const Department = () => {
       </div>
 
       <div>
-        <div className='flex text-num-indigo text-xl font-extrabold items-center justify-center gap-8 border-2 ml-2 mr-2  border-num-pink'>
+        <div className='md:flex text-num-indigo md:text-xl text-sm grid grid-cols-2  font-extrabold items-center justify-center md:gap-8 border-2 ml-2 mr-2  border-num-pink'>
           {tabs.map((tab) => (
             <div
               key={tab.id}
@@ -128,7 +130,7 @@ const Department = () => {
           ))}
         </div>
         <div className='flex gap-2'>
-          <div className='w-1/2 flex flex-col pl-24 justify-center border-2 border-num-indigo ml-2'>
+          <div className='hidden md:w-1/2 md:flex md:flex-col pl-24 justify-center border-2 border-num-indigo ml-2'>
             <h2 className='text-3xl font-semibold text-num-indigo mb-5 mt-10 mr-4'>
               {tabs[activeTab].content.heading}
             </h2>

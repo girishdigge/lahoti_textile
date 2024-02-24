@@ -38,6 +38,8 @@ const config = {
           watermark: '#e5e5e5',
         },
         num2: {
+          grad1: '#ccfbff',
+          grad2: '#ef96c5',
           gray: {
             DEFAULT: '#bdbcbc',
             light: '#f6efe7',

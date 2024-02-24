@@ -30,7 +30,7 @@ const Page = () => {
           alt='1'
         />
         <Image
-          className='h-96 max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
+          className='md:h-96 max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
           src='/products/kitchen/4.jpg'
           height={500}
           width={500}

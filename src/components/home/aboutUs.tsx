@@ -9,7 +9,7 @@ const AboutUs = () => {
         <h2 className='md:text-4xl text-num-indigo mb-4'>
           Manufacturer & Exporter of Terry Towel
         </h2>
-        <p className='md:text-base text-num-blue text-xl w-3/4'>
+        <p className='text-sm text-num-blue md:text-xl md:w-3/4'>
           Lahoti Group is a comprehensive company specialized in developing and
           export of terry towels and is located in Solapur, A beautiful
           financial Textile Hub of India. Lahoti Group originally started from
@@ -24,7 +24,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className=' w-1/3'>
+      <div className=' md:w-1/3'>
         <Image
           src={'/office/2.png'}
           alt='pattern'
