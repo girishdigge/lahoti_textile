@@ -9,7 +9,7 @@ const Page = () => {
       <div className='grid grid-cols-2 gap-4'>
         <Image
           className='h-auto max-w-full rounded-lg transform hover:scale-110 transition-all ease-in-out'
-          src='/products/dobby/1.jpg  '
+          src='/products/dobby/1.jpg'
           height={500}
           width={500}
           alt='1'
@@ -17,21 +17,21 @@ const Page = () => {
 
         <Image
           className='h-auto max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
-          src='/products/dobby/4.jpg  '
+          src='/products/dobby/4.jpg'
           height={500}
           width={500}
           alt='1'
         />
         <Image
           className='h-auto max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
-          src='/products/dobby/3.jpg  '
+          src='/products/dobby/3.jpg'
           height={500}
           width={500}
           alt='1'
         />
         <Image
           className='h-auto max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
-          src='/products/dobby/2.png  '
+          src='/products/dobby/2.png'
           height={500}
           width={500}
           alt='1'
