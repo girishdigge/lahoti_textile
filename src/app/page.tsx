@@ -12,10 +12,12 @@ import Footer from '@/components/home/footer';
 import Connect from '@/components/home/connect';
 import Testimonials from '@/components/home/testimonials';
 import Country from '@/components/home/country';
+import WhatsAppCTA from '@/components/home/whatsappCTA';
 export default function Home() {
   return (
     <div>
       <Navbar />
+      <WhatsAppCTA />
       <Carousel />
       <Experience />
       <AboutUs />

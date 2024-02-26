@@ -19,23 +19,15 @@ const Testimonials = () => {
       name: 'Saqlain Shaikh',
       role: 'CEO Osker Tech',
       content:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facere quia consequuntur rem quaerat fuga voluptas. Laboriosam, fugit! Aperiam, quos.',
+        'Lahoti Textile towels are consistently our best sellers! Their vibrant designs and unique patterns attract customers, while the soft, durable materials guarantee satisfaction. Their towels are perfect for the beach, pool, or even just relaxing at home. We appreciate their competitive pricing and reliable production schedules, which allow us to offer our customers a fantastic product at a great value',
       rating: '⭐⭐⭐⭐⭐',
       image: '/testimonials/saqlain.png', // replace with the actual image path
     },
-    {
-      name: 'Chetan Chavan',
-      role: 'CMO Osker Tech',
-      content:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facere quia consequuntur rem quaerat fuga voluptas. Laboriosam, fugit! Aperiam, quos.',
-      rating: '⭐⭐⭐⭐⭐',
-      image: '/testimonials/chetan.png', // replace with the actual image path
-    },
+
     {
       name: 'Girish Digge',
-      role: 'CTO Osker Tech',
-      content:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facere quia consequuntur rem quaerat fuga voluptas. Laboriosam, fugit! Aperiam, quos.',
+      role: 'Founder Fitness Gym',
+      content: `At our gym, hygiene is paramount. That's why we chose towels from Lahoti Textile. Their towels are highly absorbent and quick-drying, which keeps our equipment and workout areas clean and fresh. Additionally, the towels are lightweight and comfortable, allowing our members to focus on their workout without bulky distractions.`,
       rating: '⭐⭐⭐⭐⭐',
       image: '/testimonials/girish.png', // replace with the actual image path
     },

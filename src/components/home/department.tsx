@@ -120,7 +120,7 @@ const Department = () => {
               key={tab.id}
               className={`cursor-pointer px-4 py-2 ${
                 activeTab === tab.id
-                  ? 'text-num-orange border-b-2 bg-gray-100 border-orange-600'
+                  ? 'text-num-orange border-b-2 bg-gray-100 '
                   : 'text-gray-600 '
               }`}
               onMouseEnter={() => handleTabChange(tab.id)}
