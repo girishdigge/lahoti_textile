@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Page = () => {
   return (
     <div className='flex flex-col flex-center justify-center '>
-      <h1 className='mt-2 mb-2 text-5xl font-bold  flex justify-center bg-gradient-to-r from-num2-grad1 to-num2-grad2'>
+      <h1 className='mt-2 mb-2 z-10 text-5xl font-bold text-num-black flex justify-center bg-gradient-to-r from-num2-grad1 to-num2-grad2'>
         BATH MAT
       </h1>
       <div className='grid grid-cols-2 gap-4'>

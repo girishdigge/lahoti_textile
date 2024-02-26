@@ -27,6 +27,8 @@ const config = {
     extend: {
       colors: {
         num: {
+          red: ' #FC1234',
+          black: '#010101',
           purple: '#383562',
           green: '#73ba58',
           gray: '#a9abae',

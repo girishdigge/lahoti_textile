@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Page = () => {
   return (
     <div className='flex flex-col flex-center justify-center'>
-      <h1 className='mt-2 mb-2 text-5xl font-bold text-num-green flex justify-center'>
+      <h1 className='mt-2 mb-2 z-10 text-5xl font-bold text-num-black flex justify-center bg-gradient-to-r from-num2-grad1 to-num2-grad2'>
         BATH TOWEL
       </h1>
       <div className='grid grid-cols-2 gap-4'>
@@ -17,7 +17,7 @@ const Page = () => {
 
         <Image
           className='md:h-96 h-40 max-w-full rounded-lg transform hover:scale-110  transition-all ease-in-out'
-          src='/products/bath_towel/2.jpg'
+          src='/products/bath_towel/2.png'
           height={500}
           width={500}
           alt='1'
