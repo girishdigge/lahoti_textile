@@ -14,9 +14,9 @@ const Footer = () => {
         <div className='flex flex-col-4 w-4/5 mt-12 pl-12 text-white '>
           <div className='hidden md:flex md:flex-col w-1/4 '>
             <h1 className='mb-2 text-xl font-semibold '>What we do</h1>
-            <p>Sectors</p>
-            <p>Services</p>
-            <p>Projects</p>
+            <p>Towel</p>
+            <p>Napkin</p>
+            <p>Products</p>
           </div>
           <div className='hidden md:flex md:flex-col w-1/4 '>
             <h1 className='mb-2 text-xl font-semibold'>Pages</h1>

@@ -16,23 +16,23 @@ const KeyFacts = () => {
         </div>
         <div className='md:grid md:grid-cols-3 items-center w-3/5 '>
           <div className='flex flex-col  w-4/5 ml-5'>
-            <h1 className='text-6xl text-num-orange font-bold mb-2'>6600+</h1>{' '}
+            <h1 className='text-5xl text-num-orange font-bold mb-2'>6600+</h1>{' '}
             <p className='text-md text-num-blue font-medium'>
-              Road & Highway Project(km)
+              Overall customers
             </p>
           </div>
           <div className='flex flex-col  w-4/5 ml-5'>
-            <h1 className='text-6xl text-num-orange font-bold  mb-2'>1230+</h1>{' '}
+            <h1 className='text-5xl text-num-orange font-bold  mb-2'>95%</h1>{' '}
             <p className='text-md text-num-blue font-medium w-2/3'>
-              Oil & Gas Pipeline(km)
+              Customer score
             </p>
           </div>
-          <div className='flex flex-col  w-4/5 ml-5'>
-            <h1 className='text-6xl text-num-orange font-bold  mb-2'>900+</h1>{' '}
+          {/* <div className='flex flex-col  w-4/5 ml-5'>
+            <h1 className='text-5xl text-num-orange font-bold  mb-2'>900+</h1>{' '}
             <p className='text-md text-num-blue font-medium'>
-              Civil Construction Projects(Mil sq ft)
+              Happy customer worldwide
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
